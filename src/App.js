@@ -7,6 +7,8 @@ import Login from './component/login/login';
 import Signup from './component/signUp/signUp';
 import Cart from './component/cart/cart';
 
+import Search from './component/search/search';
+
 function App() {
   return (
     <Router>
@@ -15,6 +17,7 @@ function App() {
         <Route path='/Login' element={<Login />} />
         <Route path='/Signup' element={<Signup />} />
         <Route path='/Cart' element={<Cart />} />
+        <Route path='/search' element={<Search />} />
       </Routes>
     </Router>
   );
